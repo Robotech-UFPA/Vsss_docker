@@ -1,7 +1,7 @@
 DEFAULT_DOCKER_IMAGE="robotechdocker"
 DEFAULT_CONTAINER_NAME="robotechdocker_container"
 
-WORK_DIR=`vsspwd`
+WORK_DIR=`/home/damasceno/Documents/HD/Robotech/Codes/Vsss_docker`
 CONTAINER_WORK_DIR=$WORK_DIR
 
 CONTAINER_NAME=$DEFAULT_CONTAINER_NAME

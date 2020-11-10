@@ -10,3 +10,4 @@ RUN apt-get update && apt-get install -y \
     protobuf-compiler \
     && apt-get clean
 RUN git clone https://github.com/Robotech-UFPA/Vsss_2020.git
+ENTRYPOINT ["/Vsss_2020/robotech-Client/main", "blue", "224.0.0.1"]
